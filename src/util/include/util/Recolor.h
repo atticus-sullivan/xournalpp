@@ -51,4 +51,5 @@ private:
     // calculated from above parameters to avoid having to calculate them for every recoloring all over again
     ColorU8 difference = {};  // abs(dark - light)
     ColorU8 offset = {};      // min(dark, light)
+    ColorU8 ref = {};      //
 };
